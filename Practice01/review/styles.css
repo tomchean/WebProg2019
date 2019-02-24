@@ -1,0 +1,17 @@
+#bg1{
+	background-color: lavender;
+}
+
+#bg2{
+	background-color: azure;
+}
+
+table, th, td{
+	border: 2px solid grey;
+	border-collapse: collapse;
+	background-color: pink;
+}
+
+th, td{
+	padding: 10px;
+}
