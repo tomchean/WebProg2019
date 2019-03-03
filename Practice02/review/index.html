@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Viewer</title>
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">  </head>
+  <body>
+    <!-- Try to implement an HTML that looks like the reference example:
+			 https://github.com/ric2k1/ric2k1.github.io/blob/master/W2_0227/practice/img_viewer_begin/images/screenshot.png  
+		-->
+    <!-- Please use the class names and IDs as defined in styles.css
+			so that the outlook can be the same as the reference. 
+		-->
+    <div class="image-viewer__container">
+        <div class="image-viewer__title"></div>
+        <div class="image-viewer__main">
+            <div class="image-viewer__button" >
+                <img id = "back" src="images/back.png">           
+            </div>
+            <div class="image-viewer__display">
+                <a href="https://home.gamer.com.tw/creationDetail.php?sn=3232523" target="_blank">
+                    <img id="imgdis" src="https://lh5.googleusercontent.com/-5GTsECMarVU/V20Jkv0e8rI/AAAAAAABUh4/bvYllImdrcYrowcgy1Tz3RVAjhRN-QH1gCL0B/w500-h505-no/sg1_L.png" alt="Sumikko gurashi">
+                </a>
+                <iframe id="videodis" style="display:none" width="560" height="315" src="https://www.youtube.com/embed/LWWADH5SFWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="image-viewer__button">
+                <img id = "next" src="images/next.png">
+            </div>
+        </div>
+        
+
+    </div>
+    
+
+    <script src="main.js"></script>
+  </body>
+</html>
