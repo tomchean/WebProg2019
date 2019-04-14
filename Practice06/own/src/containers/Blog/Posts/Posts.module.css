@@ -1,0 +1,19 @@
+.posts {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hint {
+	margin-top: 10px;
+	font-size: 15px;
+	font-weight: 100;
+}
