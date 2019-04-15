@@ -1,0 +1,84 @@
+.Root {
+  text-align: center;
+
+  
+}
+
+.All {
+  margin: 0 auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    color: #4d4d4d;
+    background-color:gray;
+    font-weight: 300;
+    
+}
+.Column{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+  font-weight:bold;
+  background-color: lightblue;
+  width: 10em;
+  height: 50em;
+  font-size: 20px;
+  padding: 1em;
+ 
+}
+.Header {
+  display:flex;
+  flex-direction: row;
+  margin:0;
+  height: 3em;
+  width: 100%;
+  font-size: 15px;
+  font-weight:bold;
+
+  background-color:gray;
+}
+.Main {
+  margin: 0 auto;
+  /* margin-top: 7em; */
+  width: 100％;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: left;
+
+  background: white;
+  font-weight: 300;
+}
+.Article{
+  display:flex;
+  width:68em;
+  color:darkgray;
+  justify-content:center;	
+
+}
+.Content{
+  width:20em;
+  padding:2em;
+
+  text-align: center;
+}
+.Button{
+  display:flex;
+  padding:0.5em;
+
+  color:white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
